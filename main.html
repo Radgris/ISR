@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <script src="ISR.js" defer></script>
+</head>
+
+<body>
+    <h1>ISR</h1>
+    <div>
+        <p>tipo de pago:
+            <input id="inputMensual" , type="radio" , name="tipoDePago" , value="mensual">Mensual
+            <input id="inputQuincenal" , type="radio" , name="tipoDePago" , value="quincenal">Quincenal </p>
+    </div>
+    <input id="numeroDeIngresos" , type="number" , min="0" , max="10000000" , step="1" placeholder="ingrese su salario">
+    <button onclick="doItAll()">Calcular</button> <span id="resultado" ; default="ISR"></span>
+    <p>el impuesto a pagar es de: <span id="resultado"></span>Porfavor introduzca un dato y presione el boton</p>
+</body>
+
+</html>
